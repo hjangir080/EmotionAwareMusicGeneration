@@ -4,7 +4,7 @@
  - Notebooks dl_musicgen.ipynb and v1.ipynb include audio output generation
 
 
-This project focuses on generating music that reflects the emotional journey within a given text, leveraging deep learning and natural language processing. It integrates text emotion analysis inspired by TransProse with cutting-edge music generation models (like MusicGen and MusicLM-style architectures) to create music that dynamically aligns with a narrative's emotional shifts.
+This project focuses on generating music that reflects the emotional journey within a given text, leveraging deep learning and natural language processing. It integrates text emotion analysis inspired by TransProse by Hannah Davis with music generation models (like MusicGen and MusicLM-style architectures) to create music that dynamically aligns with a narrative's emotional shifts.
 
 ## Key Features
 
@@ -27,3 +27,6 @@ The system follows an end-to-end pipeline:
 3.  **Emotion-to-Music Mapping:** Translates emotional data into musical parameters and generates structured prompts for music models.
 4.  **Music Generation:** Utilizes pre-trained models like MusicGen to synthesize audio based on the emotion-conditioned prompts.
 5.  **Temporal Coherence:** Ensures smooth musical transitions reflecting the narrative's emotional flow.
+
+
+**Note:** When viewing the `.ipynb` files directly on GitHub, you might encounter a rendering error related to "Invalid Notebook" or missing widget states. This is a display issue. The notebooks are fully functional when downloaded and opened in a local Jupyter environment.
